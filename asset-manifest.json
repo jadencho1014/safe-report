@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/safe-report/static/css/main.27259be2.css",
+    "main.js": "/safe-report/static/js/main.c418364a.js",
+    "index.html": "/safe-report/index.html",
+    "main.27259be2.css.map": "/safe-report/static/css/main.27259be2.css.map",
+    "main.c418364a.js.map": "/safe-report/static/js/main.c418364a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27259be2.css",
+    "static/js/main.c418364a.js"
+  ]
+}
