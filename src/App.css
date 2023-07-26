@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #ffd174;
+  color: #393939;
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: 500;
+  padding-bottom: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  padding-bottom: 1.5rem;
+}
+
+label {
+  padding-bottom: 1rem;
+}
+
+.report-form {
+  width: 900px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
+  background-color: rgb(255, 240, 189);
+  border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.date {
+  width: 7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #d0fff3;
+}
+
+.submit {
+  padding: 0.2rem;
+  margin-top: 2rem;
+  width: 110px;
+}
+
+.delete {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  width: 60px;
+}
+
+li {
+  padding-top: 2rem;
 }
